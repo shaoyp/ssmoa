@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ssmoa"
+  id="myeclipse.1408083080261"
+  context-root="/ssmoa"
+  j2ee-spec="5.0"
+  archive="ssmoa.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
