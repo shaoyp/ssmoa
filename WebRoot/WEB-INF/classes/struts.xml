@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+
 <struts>
-	<package  name="login" extends="json-default" namespace="/" >
-		<action name="login" class="org.dreamer.login.action.LoginAction" method="login">
-			<result>/WEB-INF/jsp/index.jsp</result>
-		</action>
+
+ 	<constant name="struts.enable.DynamicMethodInvocation" value="true" />  
+	<constant name="struts.devMode" value="true" />
+	<package name="dreamer" extends="json-default" namespace="/"> 
 	</package>
-</struts>    
+	<include file="config/struts/struts-*.xml"></include>
+	
+</struts>

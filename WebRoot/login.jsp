@@ -40,14 +40,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 		<div id="login_content">
 			<div class="loginForm">
-				<form action="login.action">
+				<form action="user_login.action">
 					<p>
 						<label>用户名：</label>
-						<input type="text" name="username" size="20" class="login_input" />
+						<input type="text" name="user.name" size="20" class="login_input" />
 					</p>
 					<p>
 						<label>密码：</label>
-						<input type="password" name="password" size="20" class="login_input" />
+						<input type="password" name="user.pass" size="20" class="login_input" />
 					</p>
 					<p>
 						<label>验证码：</label>
