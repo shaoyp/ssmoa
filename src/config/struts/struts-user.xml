@@ -3,8 +3,6 @@
 
 <struts>
 
- 	<constant name="struts.enable.DynamicMethodInvocation" value="true" />  
-	<constant name="struts.devMode" value="true" />
 	<package name="user" extends="dreamer" namespace="/"> 
 		<action name="user_*" class="org.dreamer.user.action.LoginAction" method="{1}">
 			<result name="login">/WEB-INF/jsp/index.jsp</result>
