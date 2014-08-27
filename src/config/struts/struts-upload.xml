@@ -3,7 +3,7 @@
 
 <struts>
 
-	<package name="upload" extends="dreamer" namespace="/"> 
+	<package name="upload" extends="dreamer" namespace="/upload"> 
 		<action name="upload_*" class="org.dreamer.upload.action.UploadAction" method="{1}">
 			<result name="show">/WEB-INF/jsp/upload/upload.jsp</result>
 			<result name="upload" type="json"></result>

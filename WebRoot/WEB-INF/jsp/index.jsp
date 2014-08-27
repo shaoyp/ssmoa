@@ -83,8 +83,8 @@
 					</div>
 					<div class="accordionContent">
 						<ul class="tree">
-							<li><a href="upload_show.action" target="navTab" rel="dlg_page">上传</a></li>
-							<li><a href="newPage1.html" target="dialog" rel="dlg_page2">列表</a></li>
+							<li><a href="user_show.action" target="navTab" rel="user_view">用户列表</a></li>
+							<li><a href="upload/upload_show.action" target="navTab" rel="upLoad_view">上传</a></li>
 						</ul>
 					</div>
 					<!-- 左侧一结束 -->
@@ -96,7 +96,6 @@
 				<div class="tabsPageHeader">
 					<div class="tabsPageHeaderContent"><!-- 显示左右控制时添加 class="tabsPageHeaderMargin" -->
 						<ul class="navTab-tab">
-							<li tabid="main" class="main"><a href="javascript:;"><span><span class="home_icon">我的主页</span></span></a></li>
 						</ul>
 					</div>
 					<div class="tabsLeft">left</div><!-- 禁用只需要添加一个样式 class="tabsLeft tabsLeftDisabled" -->
@@ -104,49 +103,10 @@
 					<div class="tabsMore">more</div>
 				</div>
 				<ul class="tabsMoreList">
-					<li><a href="javascript:;">我的主页</a></li>
 				</ul>
 				<div class="navTab-panel tabsPageContent layoutBox">
-					<div class="page unitBox">
-						<div class="accountInfo">
-							<div class="alertInfo">
-								<p><a href="https://code.csdn.net/dwzteam/dwz_jui/tree/master/doc" target="_blank" style="line-height:19px"><span>DWZ框架使用手册</span></a></p>
-								<p><a href="http://pan.baidu.com/s/18Bb8Z" target="_blank" style="line-height:19px">DWZ框架开发视频教材</a></p>
-							</div>
-							<div class="right">
-								<p style="color:red">DWZ官方微博 <a href="http://weibo.com/dwzui" target="_blank">http://weibo.com/dwzui</a></p>
-							</div>
-							<p><span>DWZ富客户端框架</span></p>
-							<p>DWZ官方微博:<a href="http://weibo.com/dwzui" target="_blank">http://weibo.com/dwzui</a></p>
-						</div>
-						<div class="pageFormContent" layoutH="80" style="margin-right:230px">
-							
-
-<h2>DWZ系列开源项目:</h2>
-<div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_jui" target="_blank">dwz富客户端框架 - jUI</a></div>
-<div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_ssh2" target="_blank">dwz4j企业级Java Web快速开发框架(Hibernate+Spring+Struts2) + jUI整合应用</a></div>
-<div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_springmvc" target="_blank">dwz4j企业级Java Web快速开发框架(Mybatis + SpringMVC) + jUI整合应用</a></div>
-<div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_thinkphp" target="_blank">ThinkPHP + jUI整合应用</a></div>
-<div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_zendframework" target="_blank">Zend Framework + jUI整合应用</a></div>
-<div class="unit"><a href="http://www.yiiframework.com/extension/dwzinterface/" target="_blank">YII + jUI整合应用</a></div>
-
-<div class="divider"></div>
-<h2>常见问题及解决:</h2>
-<pre style="margin:5px;line-height:1.4em">
-Error loading XML document: dwz.frag.xml
-直接用IE打开index.html弹出一个对话框：Error loading XML document: dwz.frag.xml
-原因：没有加载成功dwz.frag.xml。IE ajax laod本地文件有限制, 是ie安全级别的问题, 不是框架的问题。
-解决方法：部署到apache 等 Web容器下。
-</pre>
-
-<div class="divider"></div>
-<h2>有偿服务(<span style="color:red;">公司培训，技术支持，解决使用jUI过程中出现的全部疑难问题</span>):</h2><br/>
-<pre style="margin:5px;line-height:1.4em;">
-合作电话(杜权)：010-52897073 18600055221
-邮箱：support@j-ui.com
-来往：pinglive01(吴平)
-</pre>
-						</div>
+			
+				</div>
 						
 						<div style="width:230px;position: absolute;top:60px;right:0" layoutH="80">
 							<iframe width="100%" height="430" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?width=0&height=430&fansRow=2&ptype=1&skin=1&isTitle=0&noborder=1&isWeibo=1&isFans=0&uid=1739071261&verifier=c683dfe7"></iframe>
@@ -155,9 +115,9 @@ Error loading XML document: dwz.frag.xml
 					
 				</div>
 			</div>
-		</div>
+	
 
-	</div>
+
 
 	<div id="footer">Copyright &copy; 2010 <a href="demo_page2.html" target="dialog">DWZ团队</a> 京ICP备05019125号-10</div>
 
